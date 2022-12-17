@@ -99,7 +99,6 @@ class _DraggableGridViewBuilderState extends State<DraggableGridViewBuilder> {
   @override
   void initState() {
     super.initState();
-    assert(widget.children.isNotEmpty, 'Children must not be empty.');
 
     /// [list] will update when the widget is beign dragged.
     _list = [...widget.children];
